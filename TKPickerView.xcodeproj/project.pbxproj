@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41BF98831DB60C570057F93C /* galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98821DB60C570057F93C /* galaxy.jpg */; };
 		E1CE7BF31DB6021B0088A717 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE7BF21DB6021B0088A717 /* main.m */; };
 		E1CE7BF61DB6021F0088A717 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE7BF51DB6021F0088A717 /* AppDelegate.m */; };
 		E1CE7BF91DB6021F0088A717 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE7BF81DB6021F0088A717 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		41BF98821DB60C570057F93C /* galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galaxy.jpg; sourceTree = "<group>"; };
 		E1CE7BEE1DB6021B0088A717 /* TKPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CE7BF21DB6021B0088A717 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1CE7BF41DB6021E0088A717 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				E1CE7BF71DB6021F0088A717 /* ViewController.h */,
 				E1CE7BF81DB6021F0088A717 /* ViewController.m */,
 				E1CE7BFA1DB6021F0088A717 /* Main.storyboard */,
+				41BF98821DB60C570057F93C /* galaxy.jpg */,
 				E1CE7BFD1DB6021F0088A717 /* Assets.xcassets */,
 				E1CE7BFF1DB6021F0088A717 /* LaunchScreen.storyboard */,
 				E1CE7C021DB6021F0088A717 /* Info.plist */,
@@ -246,6 +249,7 @@
 				E1CE7C011DB6021F0088A717 /* LaunchScreen.storyboard in Resources */,
 				E1CE7BFE1DB6021F0088A717 /* Assets.xcassets in Resources */,
 				E1CE7BFC1DB6021F0088A717 /* Main.storyboard in Resources */,
+				41BF98831DB60C570057F93C /* galaxy.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +502,7 @@
 				E1CE7C1D1DB6021F0088A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1CE7C1E1DB6021F0088A717 /* Build configuration list for PBXNativeTarget "TKPickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				E1CE7C201DB6021F0088A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1CE7C211DB6021F0088A717 /* Build configuration list for PBXNativeTarget "TKPickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				E1CE7C231DB6021F0088A717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
