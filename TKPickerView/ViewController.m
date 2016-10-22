@@ -11,7 +11,7 @@
 @interface ViewController ()
 
 {
-    NSArray *planets;
+    NSArray *config;
 }
 @end
 
@@ -21,12 +21,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-        self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"galaxy.jpg"]];
-    planets=@[@[@"Sun",@"Mercury",@"Vinus",@"Earth",@"Mars",@"Jupiter",@"Saturn",@"Uranus",@"Neptune"],
-              @[@"Sun",@"Mercury",@"Vinus",@"Earth",@"Mars",@"Jupiter",@"Saturn",@"Uranus",@"Neptune"]];
-   
+        self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"picimg.jpg"]];
     
-    NSLog(@"%@",planets);
+    config=@[@[@"Apple",  @"Dell", @"Acer", @"Lenevo", @"hp"],
+             @[@"dual core",  @"i3", @"i5", @"i7", @"64-bit Xeon"],
+             @[@"1gb",  @"2gb", @"4gb", @"8gb", @"16gb"],
+             @[@"128",  @"256Gb", @"512GB", @"1TB", @"121 Flash"]];
+    
+    
+    
+    NSLog(@"%@",config);
         self.picker.dataSource=self;
         self.picker.delegate=self;
     
@@ -40,7 +44,7 @@
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
-    return 2;
+    return 4;
 }
 
 // The number of rows of data
@@ -48,7 +52,7 @@
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    return 9;
+    return 5;
 }
 
 // The data to return for the row and component (column) that's being passed in
@@ -57,7 +61,13 @@
 
 - (NSString*)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
-    return planets[component][row];
+    return config[component][row];
 }
+
+- (IBAction)doneButton:(id)sender {
+    
+    
+}
+
 
 @end

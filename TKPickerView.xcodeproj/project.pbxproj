@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		41BF98831DB60C570057F93C /* galaxy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41BF98821DB60C570057F93C /* galaxy.jpg */; };
+		C070C1D31DB8F014009F4164 /* picimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C070C1D21DB8F014009F4164 /* picimg.jpg */; };
+		C070C1D51DB8F384009F4164 /* Thumb Up-52.png in Resources */ = {isa = PBXBuildFile; fileRef = C070C1D41DB8F384009F4164 /* Thumb Up-52.png */; };
+		C070C1D71DB8FB52009F4164 /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = C070C1D61DB8FB52009F4164 /* thumb.png */; };
 		E1CE7BF31DB6021B0088A717 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE7BF21DB6021B0088A717 /* main.m */; };
 		E1CE7BF61DB6021F0088A717 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE7BF51DB6021F0088A717 /* AppDelegate.m */; };
 		E1CE7BF91DB6021F0088A717 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CE7BF81DB6021F0088A717 /* ViewController.m */; };
@@ -36,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41BF98821DB60C570057F93C /* galaxy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = galaxy.jpg; sourceTree = "<group>"; };
+		C070C1D21DB8F014009F4164 /* picimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picimg.jpg; sourceTree = "<group>"; };
+		C070C1D41DB8F384009F4164 /* Thumb Up-52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumb Up-52.png"; sourceTree = "<group>"; };
+		C070C1D61DB8FB52009F4164 /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
 		E1CE7BEE1DB6021B0088A717 /* TKPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CE7BF21DB6021B0088A717 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E1CE7BF41DB6021E0088A717 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,7 +112,9 @@
 				E1CE7BF71DB6021F0088A717 /* ViewController.h */,
 				E1CE7BF81DB6021F0088A717 /* ViewController.m */,
 				E1CE7BFA1DB6021F0088A717 /* Main.storyboard */,
-				41BF98821DB60C570057F93C /* galaxy.jpg */,
+				C070C1D21DB8F014009F4164 /* picimg.jpg */,
+				C070C1D61DB8FB52009F4164 /* thumb.png */,
+				C070C1D41DB8F384009F4164 /* Thumb Up-52.png */,
 				E1CE7BFD1DB6021F0088A717 /* Assets.xcassets */,
 				E1CE7BFF1DB6021F0088A717 /* LaunchScreen.storyboard */,
 				E1CE7C021DB6021F0088A717 /* Info.plist */,
@@ -246,10 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C070C1D31DB8F014009F4164 /* picimg.jpg in Resources */,
 				E1CE7C011DB6021F0088A717 /* LaunchScreen.storyboard in Resources */,
+				C070C1D71DB8FB52009F4164 /* thumb.png in Resources */,
 				E1CE7BFE1DB6021F0088A717 /* Assets.xcassets in Resources */,
 				E1CE7BFC1DB6021F0088A717 /* Main.storyboard in Resources */,
-				41BF98831DB60C570057F93C /* galaxy.jpg in Resources */,
+				C070C1D51DB8F384009F4164 /* Thumb Up-52.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

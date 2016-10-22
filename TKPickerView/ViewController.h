@@ -10,7 +10,9 @@
 
 @interface ViewController : UIViewController<UIPickerViewDelegate, UIPickerViewDataSource>
 
+- (IBAction)doneButton:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *companyLbl;
    
 
 @property (weak, nonatomic) IBOutlet UIPickerView *picker;
